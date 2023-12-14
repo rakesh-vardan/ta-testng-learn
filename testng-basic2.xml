@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Suite file">
+    <test name="First Test Case">
+        <classes>
+            <class name="io.learn.basic.FirstTest"/>
+            <class name="io.learn.basic.FirstTest2"/>
+        </classes>
+    </test>
+    <test name="Second Test Case">
+        <classes>
+            <class name="io.learn.dependency.DependencyTest"/>
+        </classes>
+    </test>
+</suite>
