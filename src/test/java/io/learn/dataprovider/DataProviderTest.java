@@ -27,4 +27,19 @@ public class DataProviderTest {
 /*    public String getName() {
         return "Hello";
     }*/
+
+    /*
+    excel sheet
+
+--> login flow of application
+
+username 	password
+username1	password1
+username2	password2
+username3	password3
+username4	password4
+username5	password5
+
+Selenium script to login
+     */
 }
