@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <parameter name="var1" value="6"/>
+    <parameter name="var2" value="4"/>
+    <test verbose="2" name="ParametersTest">
+        <classes>
+            <class name="io.learn.parameters.ParametersTest"/>
+        </classes>
+    </test>
+</suite>

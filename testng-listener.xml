@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="io.learn.listeners.Listener1"/>
+    </listeners>
+    <test verbose="2" name="SampleTest">
+        <classes>
+            <class name="io.learn.listeners.SampleTest"/>
+            <class name="io.learn.listeners.SampleTest2"/>
+        </classes>
+    </test>
+</suite>
